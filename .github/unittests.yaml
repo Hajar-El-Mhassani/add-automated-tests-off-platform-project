@@ -1,5 +1,5 @@
 ame: Continuous Integration
-on: [push]
+on: [push,pull reqeust]
 jobs:
   build:
     runs-on: ubuntu-latest
